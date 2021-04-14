@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+      
+     <!--  below are used to inject dependency using setter method   -->
+   <bean id ="sObj" class="com.ved.di.Student">
+   <property name="studentName" value="Ved"></property>
+   <property name="studentSchoolName" value="PBPS"></property>
+   </bean>
+   
+  <!--  below are used to inject dependency using constructor method   -->
+   
+   
+   <!--  <bean id ="sObj" class="com.ved.di.Student">
+   <constructor-arg name="studentName" value="Ved"/>
+   <constructor-arg name="studentSchoolName" value="PBPS"></constructor-arg>
+   </bean> -->
+   
+ </beans>       
