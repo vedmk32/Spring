@@ -11,7 +11,7 @@
    <property name="studentSchoolName" value="PBPS"></property>
    </bean>
    
-  <!--  below are used to inject dependency using constructor method   -->
+  <!--  below are used to inject dependency using constructor method   --->
    
    
    <!--  <bean id ="sObj" class="com.ved.di.Student">
