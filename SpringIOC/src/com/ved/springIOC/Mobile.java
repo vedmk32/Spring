@@ -10,7 +10,7 @@ public class Mobile {
 //	a.calling();
 //	a.data();
 	   
-	// APPLYING SPRING CONCEPT SO THAT SPRING CAN CREATE AND MANAGE OBJECT
+	// APPLYING SPRING CONCEPT SO THAT SPRING CAN CREATE AND MANAGE OBJECTS
 	   
 	   ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 	   Sim s=context.getBean("sim", Sim.class);
