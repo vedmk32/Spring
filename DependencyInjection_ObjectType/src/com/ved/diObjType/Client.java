@@ -11,7 +11,7 @@ public class Client {
 //		MathCheat m = new MathCheat();
 //		s.setObjMathCheat(m);
 //		s.studentCheatmethod();
-
+// Applying Spring Concept
 		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 
 		Student st = context.getBean("std", Student.class);
